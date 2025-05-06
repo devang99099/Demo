@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Demo</title>
+  </head>
+  <body>
+    <div class="main">
+      <section class="contain">
+        <div class="dashbord-header">
+        <header>
+            <div class="blog-dashbord-header" id="dashbord-header-id"> <div class="blog-dashbord-header"><h3>Blog Dashbord </h3></div>
+              <div class="dashbord-main">
+                <button id="btn-add"> Add new </button>
+            </div>
+            </div>
+            <div class="main-blog">
+              
+            <ul>
+                  <li><a href="#" id="post" class="active"></a></li>
+                </ul>
+        </div>
+        </header>
+        
+        <div class="dashbord">
+            
+            <div class="card-container">
+              
+                <div id="ok"></div> 
+            </div>
+            <div id="userModal" class="modal">
+                <div class="modal-content">
+                    <span id="closeModal" class="close">&times;</span>
+                    <div id="modalUserDetail"></div>
+                </div>
+            </div>
+            </div>
+            <div class="form-data">
+            <form id="add-form-data" >
+            <h2 id="h2">Add Data</h2>
+            <label class="lbl-title">Title : </label>
+            <input type="text" class="title-add" id="txt-title" placeholder="Enter Title "> 
+            <label class="lbl-body">Description : </label>
+            <textarea name="txt-body" id="txt-body" placeholder="Enter Description" rows="6"></textarea>
+            <button type="submit" value="submit" id="btn-add-submit">Submit</button>
+            </button>
+            </form>
+            </div>
+        </div>
+
+     
+     </section>
+     </div>
+    <script src="app.js"></script>
+  </body>
+</html>
