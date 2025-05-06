@@ -145,18 +145,13 @@ header {
   padding-top: 10px;
 }
 
-.dashbord-main {
-  margin: -9px -9px;
-  text-align: end;
-}
-
 .dashbord-main button {
   background-color: #3498db;
   color: white;
   border: none;
   padding: 8px 12px;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 20px;
   transition: background-color 0.3s ease;
 }
 
@@ -239,8 +234,8 @@ header {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-#btn-delete:hover,
-#btn-update:hover,
+.btn-delete:hover,
+.btn-update:hover,
 #btn-add-submit:hover,
 #btn-add:hover {
   scale: 1.05;
